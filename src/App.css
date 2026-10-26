@@ -1,0 +1,14 @@
+/* App Root Container */
+.portfolio-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
